@@ -23,6 +23,8 @@ export default {
       introduccion:
         '<strong>Objetivo:</strong> Identificar los conceptos básicos, características y procedimientos relacionados con la información contable, registros contables, clasificación de cuentas, partida doble y ecuación contable.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,

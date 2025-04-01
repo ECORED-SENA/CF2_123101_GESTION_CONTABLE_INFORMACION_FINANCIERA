@@ -143,7 +143,7 @@ export default {
       tema: 'Norma',
       referencia:
         'Consejo Técnico de la Contaduría Pública (CTCP). Norma Internacional de Contabilidad (NIC) 8.',
-      tipo: 'Norma',
+      tipo: 'Documento PDF',
       link:
         'http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369239-2962',
     },
@@ -214,27 +214,28 @@ export default {
   referencias: [
     {
       referencia:
-        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. Ediciones de la U.',
+        'Angulo, U. (2018). <em>Contabilidad financiera, correlacionado con NIIF. Ediciones de la U</em>.',
       link: '',
     },
     {
       referencia:
-        'Cuaspa, C. (2013). Normas internacionales de información financiera convergencia a Colombia y aplicación a empresas de salud. Ediciones UNAL.',
+        'Cuaspa, C. (2013). <em>Normas internacionales de información financiera convergencia a Colombia y aplicación a empresas de salud. Ediciones UNAL</em>.',
       link: '',
     },
     {
-      referencia: 'Decreto 2420 de diciembre 14 de 2015 (2020, noviembre 05).',
+      referencia:
+        'Decreto 2420 <em>de diciembre 14 de 2015 (2020, noviembre 05)</em>.',
       link:
         'https://www.nicniif.org/home/novedades/colombia-expide-decreto-unico-regalmentario-dur-de-las-normas-de-contabilidad-de-informacion-financiera-y-de-aseguramiento-de-la-informacion-financiera.html',
     },
     {
       referencia:
-        'IFRS Foundation (2019). Taxonomía NIIF Ilustrada. IFRS Foundation Edition. Delaware: E.E.U.U.',
+        'IFRS Foundation (2019). <em>Taxonomía NIIF Ilustrada. IFRS Foundation Edition. Delaware: E.E.U.U</em>.',
       link: '',
     },
     {
       referencia:
-        'CTCP, (2020, noviembre 05), Marco conceptual para la Información Financiera.',
+        'CTCP, (2020, noviembre 05), <em>Marco conceptual para la Información Financiera</em>.',
       link:
         'http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la',
     },
@@ -245,22 +246,22 @@ export default {
     },
     {
       referencia:
-        'Pérez, J. y Fol, R. (2019). Manual de casos prácticos de ISR. Tax Editores. ',
+        'Pérez, J. y Fol, R. (2019).<em> Manual de casos prácticos de ISR. Tax Editores</em>. ',
       link: '',
     },
     {
       referencia:
-        'Santos-Cid, C. (2018). Una mirada a la historia de la Contabilidad. Revista Cubana De Finanzas Y Precios, 2(1), 139-155. ',
+        'Santos-Cid, C. (2018). <em>Una mirada a la historia de la Contabilidad. Revista Cubana De Finanzas Y Precios, 2(1), 139-155</em>. ',
       link: '',
     },
     {
       referencia:
-        'Tapia, C. y Jiménez, J. (2018) Cómo entender finanzas sin ser financiero. Instituto Mexicano de Contadores Públicos. ',
+        'Tapia, C. y Jiménez, J. (2018) <em>Cómo entender finanzas sin ser financiero. Instituto Mexicano de Contadores Públicos</em>. ',
       link: '',
     },
     {
       referencia:
-        'Vilches, R. (2019). Apuntes de contabilidad básica. El Cid Editor. ',
+        'Vilches, R. (2019). <em>Apuntes de contabilidad básica. El Cid Editor</em>. ',
       link: '',
     },
     {
