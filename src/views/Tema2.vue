@@ -19,11 +19,11 @@
       h2 2.1 Hechos económicos: concepto, clasificación
     
     figure.mb-5
-      img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen').m-auto
+      img(src='@/assets/curso/tema2/img1.png', alt="").m-auto
 
-    .caja-titulos-tercer-nivel.mb-5
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema1/img2.svg" style="max-width: 70px").m-auto
       .col
         h3 Concepto
@@ -33,20 +33,20 @@
         p El hecho contable hace referencia a la transacción u operación realizada por la empresa que debe ser registrada de acuerdo con los criterios de reconocimiento y medición. Además, se deben tener en cuenta las políticas diseñadas por la entidad.
         p.mb-0.caja-text-bloque1 Esta parte es fundamental, aquí se tiene en cuenta si la transacción que se generó hace parte de un activo, pasivo, patrimonio, ingresos o gastos; de allí, la importancia de conocer la definición y características establecidas para su reconocimiento. De igual forma, se tienen en cuenta las bases de medición, las cuales se encuentran registradas en las políticas contables que fueron diseñadas conforme las directrices señaladas en la NIC 8 (CTCP, 2010).
       .col-lg-auto
-        figure(data-aos="fade-left").d-none.d-xl-block.img-flout
+        figure(data-aos="fade-left").d-none.d-xl-block
           img(src="@/assets/curso/tema2/img2.png" style="max-width: 400px").m-auto
     
     .row.mb-5.align-items-center.ajuste-espacios-movil
       .col-lg-auto.ajuste-img-tall
-        figure(data-aos="fade-right").d-none.d-xl-block.img-flout  
+        figure(data-aos="fade-right").d-none.d-xl-block 
           img(src="@/assets/curso/tema2/img3.png" style="max-width: 400px").m-auto
       .col-lg
         p Se presenta con frecuencia la confusión entre una cuenta del activo con una cuenta del patrimonio o un pasivo con un gasto. Por lo anterior, es muy importante analizar los conceptos y, de esta manera, determinar su clasificación de acuerdo con los elementos de los estados financieros, seguidamente, registrarlos en la contabilidad. Cabe resaltar, que un error en la contabilización de estos hechos contables genera información no confiable para la toma de decisiones y se infringen las cualidades de la información contable. Por tanto, cualquier error u omisión debe generar un ajuste contable, con el fin de emitir información confiable y oportuna. Debe recordarse que el registro se hace de forma cronológica, en el idioma castellano, utilizando la moneda funcional.
         p.mb-0 De acuerdo con lo anterior, se requiere de personal con suficiente experticia para llevar a cabo los procesos contables de forma óptima, garantizando, de esta manera, la representación fiel de las transacciones generadas. En consecuencia, se emitirán los estados financieros y respectivos análisis que permitan evaluar el desempeño de la entidad y, así mismo, se tomarán acciones para alcanzar los objetivos deseados.
     
-    .caja-titulos-tercer-nivel.mb-5
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema1/img2.svg" style="max-width: 70px").m-auto
       .col
         h3 Clasificación
@@ -65,7 +65,7 @@
         p Cuando se realiza una consignación bancaria, se utilizan dos cuentas del activo. Se debita la cuenta de banco, registrando el aumento y la cuenta de efectivo (caja), se acredita registrando la disminución, como se relaciona a continuación:
         .row.align-items-center
           .col-lg-auto
-            figure(data-aos="fade-right").img-flout.d-none.d-xl-block
+            figure(data-aos="fade-right").d-none.d-xl-block
               img(src="@/assets/curso/tema2/img4.png" style="max-width: 400px").m-auto
           .col-lg
             .titulo-sexto.color-acento-contenido.mb-3
@@ -105,7 +105,7 @@
         p Se realiza una venta por $ 10.000.000 a crédito, calcular IVA del 19 %.  En esta transacción intervienen tres cuentas: ingresos por actividad ordinarias (crédito) correspondiente a los ingresos, IVA generado (débito) de los pasivos y, finalmente, la cuenta de clientes (crédito) perteneciente al activo. De acuerdo con la naturaleza de las cuentas y si se presenta un aumento o disminución, se registra la transacción mediante el asiento contable como se observa a continuación:
         .row.align-items-center.mb-2
           .col-lg-auto
-            figure(data-aos="fade-right").img-flout.d-none.d-xl-block
+            figure(data-aos="fade-right").d-none.d-xl-block
               img(src="@/assets/curso/tema2/img5.png" style="max-width: 400px").m-auto
           .col-lg
             .titulo-sexto.color-acento-contenido.mb-3
@@ -143,15 +143,15 @@
       h2 2.2 Cuenta: concepto y clasificación
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema2/img6.png')})`}"
-      )
+      .bloque-texto-g__img.ajuste___img__2
+        figure
+          img(src="@/assets/curso/tema2/img6.svg", alt="" style="max-width: 320px")
       .bloque-texto-g__texto.p-4
         p.mb-0 En el numeral anterior se habló de hechos económicos y la forma de registrar una transacción de acuerdo con la clasificación de este. Por ende, se continúan fortaleciendo estos conceptos mediante la orientación de la definición de cuenta y su clasificación.
     
-    .caja-titulos-tercer-nivel.mb-5
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema1/img2.svg" style="max-width: 70px").m-auto
       .col
         h3 Cuenta
@@ -165,38 +165,38 @@
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
-              figure.img-flout
-                img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure
+                img(src='@/assets/curso/tema2/img7.svg', alt="" style="max-width: 95px").m-auto
           h3.text-center Nombre
           p Debe registrarse de forma completa de acuerdo con la asignación establecida.
       .col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
-              figure.img-flout1
-                img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure
+                img(src='@/assets/curso/tema2/img8.svg', alt="" style="max-width: 95px").m-auto
           h3.text-center El debe
           p Se registra en el lado izquierdo para indicar los débitos de la transacción.
       .col-lg-4.mb-4.mb-sm-0
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
-              figure.img-flout
-                img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure
+                img(src='@/assets/curso/tema2/img9.svg', alt="" style="max-width: 95px").m-auto
           h3.text-center El haber
           p Se relaciona en la parte derecha para registrar los créditos de la operación comercial.
     
     .row.mb-5.align-items-center.ajuste-espacios-movil
       .col-lg-auto.ajuste-img-tall-1
-        figure(data-aos="fade-right").d-none.d-xl-block.img-flout
+        figure(data-aos="fade-right").d-none.d-xl-block
           img(src="@/assets/curso/tema2/img10.png" style="max-width: 500px").m-auto
       .col-lg
         p.mb-4 Cuando se registran las operaciones comerciales en el comprobante diario se procede a determinar el saldo de las cuentas. En caso de manejar software contable, se posibilita extraer los auxiliares de cada cuenta según la necesidad que surja para su análisis o consulta (<em>Warren, Reeves</em> y <em>Duchac</em>, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018). 
         p.mb-0 Determinar el saldo significa restar los valores monetarios que se encuentran registrados en el <strong>debe</strong> y en el <strong>haber</strong>. Esta acción se realiza con la misma cuenta. Por ejemplo, se desea conocer el saldo de la cuenta de caja, entonces se revisan todos los movimientos débitos y los créditos; seguidamente, se determina la diferencia y el resultado de esta operación es el saldo de la cuenta caja; este saldo refleja el dinero con que se cuenta en efectivo y, por ser del activo, su naturaleza es débito.
     
-    .caja-titulos-tercer-nivel.mb-5
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema1/img2.svg" style="max-width: 70px").m-auto
       .col
         h3 Clasificación de las cuentas
@@ -206,8 +206,8 @@
         p.caja-text-bloque1 En la primera unidad temática se analizó el concepto de los elementos de los estados financieros, conforme a lo estipulado en el Marco Conceptual de Información Financiera (CTCP, 2010). A partir de ello, se profundizó en el concepto y se analizó su naturaleza con el fin de registrar la transacción de forma correcta y, de esta manera generar reportes útiles para la administración. 
         p.mb-0 Las cuentas de acuerdo con su naturaleza se encuentran clasificadas en reales o de balance, y nominales o de resultado (<em>Warren, Reeves</em> y <em>Duchac</em>, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018; CTCP, 2010):
       .col-lg-auto
-        figure(data-aos="fade-right").d-none.d-xl-block.img-flout
-            img(src="@/assets/curso/tema2/img11.png" style="max-width: 400px").m-auto
+        figure(data-aos="fade-right").d-none.d-xl-block
+            img(src="@/assets/curso/tema2/img11.svg" style="max-width: 400px").m-auto
 
     .row.mb-4(data-aos="fade-right")
       .col.ajuste-h4-bloque2
@@ -218,45 +218,45 @@
     .bg--img_03.mb-5
       .row.h-100.align-items-center
         .col-lg-auto
-          figure(data-aos="fade-up").d-none.d-xl-block.img-flout
-            img(src="@/assets/curso/tema2/img12.png", alt="alt" style="width: 400px").m-auto
+          figure(data-aos="fade-up").d-none.d-xl-block
+            img(src="@/assets/curso/tema2/img12.svg", alt="" style="width: 400px").m-auto
         .col-lg
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Activo").ajuste-cajaAcordion-1
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Recurso controlado por la entidad.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Surge de eventos pasados. </li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>En un futuro se espera recibir beneficios económicos.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Es fiable su valor.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Recurso controlado por la entidad.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Surge de eventos pasados. </li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>En un futuro se espera recibir beneficios económicos.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Es fiable su valor.</li>
               </ul>
               h3.mb-3 Movimiento de las cuentas del activo
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Inician y aumentan en el débito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Disminuyen y se cancelan en el crédito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su saldo es débito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Inician y aumentan en el débito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Disminuyen y se cancelan en el crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su saldo es débito.</li>
               </ul>
             .row(titulo="Pasivo").ajuste-cajaAcordion-1
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Obligación presente de la entidad.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Surge de eventos pasados.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Se espera desprender de beneficios económicos cuando se cancele parcial o totalmente la deuda.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su valor sea fiable.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Obligación presente de la entidad.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Surge de eventos pasados.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Se espera desprender de beneficios económicos cuando se cancele parcial o totalmente la deuda.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su valor sea fiable.</li>
               </ul>
               h3.mb-3 Movimiento de las cuentas del pasivo
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Inician y aumentan en el crédito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Disminuyen y se cancelan en el débito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su saldo es crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Inician y aumentan en el crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Disminuyen y se cancelan en el débito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su saldo es crédito.</li>
               </ul>      
             .row(titulo="Patrimonio").ajuste-cajaAcordion-1
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Es la diferencia entre el activo y pasivo.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Es la diferencia entre el activo y pasivo.</li>
               </ul>
               h3.mb-3 Movimiento de las cuentas del patrimonio
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Inician y aumentan en el crédito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Disminuyen y se cancelan en el débito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su saldo es crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Inician y aumentan en el crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Disminuyen y se cancelan en el débito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su saldo es crédito.</li>
               </ul>
 
     .row.mb-4(data-aos="fade-right")
@@ -271,41 +271,41 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Ingresos").ajuste-cajaAcordion-1
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Hace referencia a los incrementos de los beneficios económicos.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su incremento aumenta el patrimonio neto. </li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Hace referencia a los incrementos de los beneficios económicos.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su incremento aumenta el patrimonio neto. </li>
               </ul>
               h3.mb-3 Movimiento de las cuentas de ingresos
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Inician y aumentan en el crédito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Disminuyen y se cancelan en el débito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su saldo es crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Inician y aumentan en el crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Disminuyen y se cancelan en el débito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su saldo es crédito.</li>
               </ul>
             .row(titulo="Gastos").ajuste-cajaAcordion-1
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Relaciona las disminuciones de los beneficios económicos.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Dan como resultado disminuciones en el patrimonio neto.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Relaciona las disminuciones de los beneficios económicos.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Dan como resultado disminuciones en el patrimonio neto.</li>
               </ul>
               h3.mb-3 Movimiento de las cuentas de gastos
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Inician y aumentan en el débito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Disminuyen y se cancelan en el crédito.</li>
-                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su saldo es débito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Inician y aumentan en el débito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Disminuyen y se cancelan en el crédito.</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su saldo es débito.</li>
               </ul>      
             .row(titulo="Costos").ajuste-cajaAcordion-2
               p.p-0 Hace referencia a la inversión que se realiza para adquirir el producto que se desea ofertar o se pretender fabricar, depende del objeto social de la empresa. Se clasifican en costos de ventas y costos de producción:
               <ul class="fa-ul ajuste-ul-bloque4">
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-greater-than"></i></span><strong>Costos de ventas</strong>: son aplicados por las empresas comerciales, que se dedican a la compra y venta de bienes. El costo de estas empresas es el valor de adquisición del bien.</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-greater-than"></i></span><strong>Costos de producción</strong>: son calculados por las empresas industriales que se encargan de transformar materia prima en producto terminado. Allí intervienen los elementos del costo: Materia Prima Directa (MPD), Mano de Obra Directa (MOD), Costos Indirectos de Fabricación (CIF).</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-greater-than"></i></span><strong>Movimiento de las cuentas de costos</strong>:</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-chevron-right"></i></span><strong>Costos de ventas</strong>: son aplicados por las empresas comerciales, que se dedican a la compra y venta de bienes. El costo de estas empresas es el valor de adquisición del bien.</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-chevron-right"></i></span><strong>Costos de producción</strong>: son calculados por las empresas industriales que se encargan de transformar materia prima en producto terminado. Allí intervienen los elementos del costo: Materia Prima Directa (MPD), Mano de Obra Directa (MOD), Costos Indirectos de Fabricación (CIF).</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-chevron-right"></i></span><strong>Movimiento de las cuentas de costos</strong>:</li>
                 <ul class="fa-ul ajuste-ul-bloque4">
-                  <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Inician y aumentan en el débito.</li>
-                  <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Disminuyen y se cancelan en el crédito.</li>
-                  <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Su saldo es débito.</li>
+                  <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Inician y aumentan en el débito.</li>
+                  <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Disminuyen y se cancelan en el crédito.</li>
+                  <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Su saldo es débito.</li>
                 </ul>
               </ul>
         .col-lg-auto
-          figure(data-aos="fade-up").d-none.d-xl-block.img-flout
-            img(src="@/assets/curso/tema2/img13.png", alt="alt" style="width: 400px").m-auto
+          figure(data-aos="fade-up").d-none.d-xl-block
+            img(src="@/assets/curso/tema2/img13.svg", alt="" style="width: 400px").m-auto
 
     p.mb-4 Finalmente, para resumir el movimiento y naturaleza de las cuentas, lo invitamos a revisar el siguiente gráfico:
 
@@ -352,7 +352,7 @@
     .row.align-items-center.mb-5.ajuste-espacios-movil
       .col-lg-auto
         figure(data-aos="fade-right").d-none.d-xl-block
-          img(src="@/assets/curso/tema2/img14.png" style="max-width: 400px").m-auto
+          img(src="@/assets/curso/tema2/img14.svg" style="max-width: 400px").m-auto
       .col-lg
         p El PUC se encuentra integrado por el catálogo de cuentas, descripciones y dinámicas que orientan y facilitan el registro de las transacciones generadas.
         p.mb-0.caja-text-bloque2-1 En coherencia con las normas internacionales no se utiliza el Plan Único de Cuentas. Sin embargo, en Colombia las empresas siguen utilizándolo. Los PUC han sido modificados conforme a las necesidades de las empresas a través del tiempo. En algunos casos se incorporan o eliminan cuentas. También, se cambian nombres y códigos con el fin de generar estados financieros que cumplan con la taxonomía XBRL.
@@ -364,27 +364,27 @@
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
-              figure.img-flout
-                img(src='@/assets/curso/tema2/img15.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure
+                img(src='@/assets/curso/tema2/img15.svg', alt="" style="max-width: 95px").m-auto
           p La jerarquía de la taxonomía y los elementos que la componen. 
       .col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
-              figure.img-flout1
-                img(src='@/assets/curso/tema2/img16.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure
+                img(src='@/assets/curso/tema2/img16.svg', alt="" style="max-width: 95px").m-auto
           p El formato requerido de estos elementos, tales como texto, valores monetarios, etc. 
       .col-lg-4.mb-4.mb-sm-0
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
-              figure.img-flout
-                img(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure
+                img(src='@/assets/curso/tema2/img17.svg', alt="" style="max-width: 95px").m-auto
           p La referencia a las Normas NIIF con las que se relacionan estos elementos.  
 
-    .caja-titulos-tercer-nivel.mb-5
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema1/img2.svg" style="max-width: 70px").m-auto
       .col
         h3 Catálogo de cuentas
@@ -424,7 +424,7 @@
                   td 11100501 Banco BBVA.
         .col-lg-auto
           figure(data-aos="fade-left").d-none.d-xl-block
-            img(src="@/assets/curso/tema2/img18.png" style="max-width: 400px").m-auto
+            img(src="@/assets/curso/tema2/img18.svg" style="max-width: 400px").m-auto
     
     p.mb-4 Las clases que expresan cada dígito son:
 
@@ -432,7 +432,7 @@
       .row.fondo-color3.align-items-center
         .col-lg-auto
           figure(data-aos="fade-right").d-none.d-xl-block
-            img(src="@/assets/curso/tema2/img19.png" style="max-width: 400px").m-auto
+            img(src="@/assets/curso/tema2/img19.svg" style="max-width: 400px").m-auto
         .col-lg
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 5. 
@@ -682,14 +682,14 @@
           h5.mb-0.caja-text-tema2-bloque4-3 Activo = Pasivo + Patrimonio
       .col-lg-auto
         figure(data-aos="fade-left").d-none.d-xl-block
-            img(src="@/assets/curso/tema2/img23.png" style="max-width: 400px").m-auto
+            img(src="@/assets/curso/tema2/img23.svg" style="max-width: 400px").m-auto
 
     p.mb-5.ajuste-espacios-movil Lo anterior indica, que la sumatoria de pasivo y patrimonio debe ser igual al activo. Así, si el total activo se encuentra representado por $ 15.000.000, la suma del pasivo y patrimonio debe dar el mismo valor. De esta manera, se cumple con la ecuación contable (Tapia y Jiménez, 2018; Cuaspa, 2013; Vilches; 2019; Angulo, 2018).
 
     .row.justify-content-center.mb-5.ajuste-espacios-movil
       .col-lg-auto
         figure(data-aos="fade-right").d-none.d-xl-block
-            img(src="@/assets/curso/tema2/img24.png" style="max-width: 400px").m-auto
+            img(src="@/assets/curso/tema2/img24.svg" style="max-width: 400px").m-auto
       .col-lg
         p.mb-4 En términos matemáticos, la ecuación puede reestructurarse de las siguientes formas:
         h5.mb-0.caja-text-tema2-bloque4-1.ajuste___width.espacio___caja(data-aos="fade-left") Pasivo = Activo - Patrimonio
@@ -745,7 +745,7 @@
     .row.mb-5
       .col-lg-auto
         figure(data-aos="fade-up")
-          img(src="@/assets/curso/tema2/img25.png" alt="Representación molecular de la sacarosa, un disacárido formado por la unión de una molécula de glucosa y una de fructosa mediante un enlace glucosídico. Se conoce como azúcar de mesa." style="max-width: 1230px").m-auto
+          img(src="@/assets/curso/tema2/img25.svg" alt="Representación molecular de la sacarosa, un disacárido formado por la unión de una molécula de glucosa y una de fructosa mediante un enlace glucosídico. Se conoce como azúcar de mesa." style="max-width: 1230px").m-auto
 
     p.mb-4.ajuste-espacios-movil Para determinar la ecuación contable, se clasifican los elementos de los estados financieros correspondientes a las cuentas de activo, pasivo y patrimonio. Se omiten las cuentas relacionadas de ingresos y gastos en la información suministrada, teniendo en cuenta que estas se incorporan en el estado de resultados integral. Así mismo, se observa que el valor de activos correspondiente a $ 13.800.000, es igual a la sumatoria de pasivo y patrimonio, cumpliendo con lo estipulado en la ecuación.
 
@@ -793,7 +793,7 @@
     .row.mb-5
       .col-lg-auto
         figure(data-aos="fade-up")
-          img(src="@/assets/curso/tema2/img26.png" alt="Tabla que ilustra la ecuación contable, mostrando la relación entre activo, pasivo y patrimonio. Se detallan valores en efectivo, deudores, inventarios y propiedades en la columna de activos, mientras que en la de pasivos aparecen las obligaciones financieras. El patrimonio se compone de capital, reflejando el equilibrio entre ambos lados de la ecuación." style="max-width: 1230px").m-auto
+          img(src="@/assets/curso/tema2/img26.svg" alt="Tabla que ilustra la ecuación contable, mostrando la relación entre activo, pasivo y patrimonio. Se detallan valores en efectivo, deudores, inventarios y propiedades en la columna de activos, mientras que en la de pasivos aparecen las obligaciones financieras. El patrimonio se compone de capital, reflejando el equilibrio entre ambos lados de la ecuación." style="max-width: 1230px").m-auto
 
     p.mb-4.ajuste-espacios-movil Podemos observar que se refleja la ecuación contable, donde se tiene:
 
@@ -809,7 +809,7 @@
       .caja-text-img-nota__4
         .col-lg-auto
           figure.d-none.d-xl-block
-            img(src="@/assets/curso/tema2/img27.png" style="width: 200px").m-auto
+            img(src="@/assets/curso/tema2/img27.svg" style="width: 200px").m-auto
         .col-lg.ajuste__parrafo_4
           p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise las referencias bibliográficas propuestas de la biblioteca SENA, entre ellas se encuentra:
           p.mb-0 <strong>Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. Ediciones de la U. Bogotá: Colombia. </strong>

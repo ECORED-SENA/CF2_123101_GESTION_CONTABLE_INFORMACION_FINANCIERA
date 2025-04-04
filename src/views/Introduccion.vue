@@ -9,9 +9,9 @@
       h1 Introducción
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/intro/img1.png')})`}"
-      )
+      .bloque-texto-g__img
+        figure
+          img(src="@/assets/curso/intro/img1.svg", alt="" style="max-width: 240px")
       .bloque-texto-g__texto.p-4
         p.mb-0 En el marco de la globalización, donde se plantean nuevos objetivos empresariales, surge la necesidad de mantener un sistema contable comprensible, oportuno y confiable, que contribuya con la adecuada toma de decisiones por parte de la administración. Esto explica por qué la contabilidad toma mayor importancia en las empresas en la actualidad y se hace indispensable conocer su historia, cualidades, objetivos y criterios para el reconocimiento de los hechos económicos, conforme con las Normas Internacionales de Información Financiera (NIIF). 
     
@@ -21,7 +21,7 @@
         p.mb-0.ajuste-text-intro Este componente formativo lo orientará en el desarrollo de los procesos contables. Se demanda del aprendiz análisis y comprensión del contenido para lograr un aprendizaje significativo.
       .col-lg-auto
         figure(data-aos="fade-left").d-none.d-lg-block
-          img(src="@/assets/curso/intro/img2.png", alt="imagen decorativa" style="max-width: 500px").m-auto
+          img(src="@/assets/curso/intro/img2.svg", alt="" style="max-width: 500px").m-auto
 
 </template>
 
