@@ -140,12 +140,53 @@ export default {
   },
   complementario: [
     {
-      tema: 'Norma',
+      tema: 'Política contable PPYE',
       referencia:
-        'Consejo Técnico de la Contaduría Pública (CTCP). Norma Internacional de Contabilidad (NIC) 8.',
-      tipo: 'Documento PDF',
+        'Congreso de Colombia. (1971). Decreto 410 de 1971: Por el cual se expide el Código de Comercio. Diario Oficial No. 33.339.',
+      tipo: 'Página web',
       link:
-        'http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369239-2962',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
+    },
+    {
+      tema: 'Compra de propiedad, planta y equipo en moneda local y extranjera',
+      referencia:
+        'Congreso de Colombia. (1995). Ley 222 de 1995: Por la cual se modifica el Libro II del Código de Comercio... Diario Oficial No. 42.156.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6739',
+    },
+    {
+      tema: 'Reconocimiento, medición, presentación y revelación',
+      referencia:
+        'Congreso de Colombia. (1996). Ley 256 de 1996: Por la cual se dictan normas sobre competencia desleal. Diario Oficial No. 42.792.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=38871',
+    },
+    {
+      tema: 'Política contable de propiedades de inversión',
+      referencia:
+        'Congreso de Colombia. (1999). Ley 527 de 1999: Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos... Diario Oficial No. 43.673.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4276',
+    },
+    {
+      tema: 'Política contable de activos mantenidos para la venta',
+      referencia:
+        'Congreso de Colombia. (2019). Ley 1955 de 2019: Por la cual se expide el Plan Nacional de Desarrollo 2018-2022 "Pacto por Colombia, Pacto por la Equidad".',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=93353',
+    },
+    {
+      tema:
+        'Reconocimiento, medición, presentación y revelación de activos mantenidos para la venta',
+      referencia:
+        'Congreso de Colombia. (2020). Ley 2069 de 2020: Por medio de la cual se impulsa el emprendimiento en Colombia. Diario Oficial No. 51.521.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=147696',
     },
   ],
   glosario: [
