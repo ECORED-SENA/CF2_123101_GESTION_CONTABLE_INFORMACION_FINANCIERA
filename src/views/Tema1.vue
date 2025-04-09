@@ -110,7 +110,7 @@
                 h4.mb-3 Edad Media
                 p Con el inicio del imperio Romano se aprobaron asientos realizados en libros de contabilidad. Fueron los banqueros romanos quienes perfeccionaron las técnicas contables, con el fin de controlar los valores que otorgaban al ejército para sus conquistas territoriales.
               .col-md-6
-                figure.d-none.d-lg-block
+                figure.d-none.d-xl-block
                   img(src='@/assets/curso/tema1/img10.svg', alt="" style="max-width: 400px").m-auto
 
             .row(titulo="Siglos VII - VIII").align-items-center
@@ -118,7 +118,7 @@
                 h4.mb-3 Siglos VII - VIII
                 p En Italia durante los Siglos VII y VIII, principalmente en Venecia, la actividad contable se convirtió en una actividad de mucho prestigio, puesto que, por mandato de los señores feudales, los libros eran llevados por escribanos. Las ciudades de Venecia, Génova y Florencia fueron el epicentro del comercio, la industria y la banca, lo que les permitió desarrollar técnicas de contabilidad.
               .col-lg-6
-                figure.d-none.d-lg-block
+                figure.d-none.d-xl-block
                   img(src='@/assets/curso/tema1/img11.svg', alt="" style="max-width: 400px").m-auto
 
             .row(titulo="1494").align-items-center
@@ -126,7 +126,7 @@
                 h4.mb-3 1494
                 p El monje franciscano de Italia, Luca Pacioli, a quien se le llama el “padre” de la contabilidad, propuso el concepto de la partida doble para llevar cuentas de gastos, ingresos, activos, y pasivos, registrando las transacciones cronológicamente y detalladas.
               .col-lg-6
-                figure.d-none.d-lg-block
+                figure.d-none.d-xl-block
                   img(src='@/assets/curso/tema1/img12.svg', alt="" style="max-width: 400px").m-auto
             
             .row(titulo="1988").align-items-center
@@ -134,7 +134,7 @@
                 h4.mb-3 1988
                 p En Estados Unidos, <em>William Burroughs</em> patentó la primera sumadora de teclas, y en 1920 el gobierno, la banca y las bolsas de valores comenzaron a exigir estados financieros certificados por contadores públicos independientes.
               .col-lg-6
-                figure.d-none.d-lg-block
+                figure.d-none.d-xl-block
                   img(src='@/assets/curso/tema1/img13.svg', alt="" style="max-width: 400px").m-auto
 
             .row(titulo="1993").align-items-center
@@ -142,7 +142,7 @@
                 h4.mb-3 1993
                 p En Latinoamérica, después de las independencias de los Estados, se continuó usando por mucho tiempo las técnicas contables traídas desde España. En Colombia, en 1993 se reglamentó la contabilidad en general y se expidió a partir del decreto 2649 el compendio de principios o normas de contabilidad generalmente aceptadas (PCGA). Este nombre surge de la traducción del inglés de las NIC (Normas Internacionales de Contabilidad). Con la ley 2420 del 2015 se adoptaron en Colombia, al igual que en el resto de los países, las Normas Internacionales de Información Financiera (NIIF) para dar uniformidad a la presentación de la información financiera de las entidades que cotizan en bolsa; para ser entendida sin importar la nacionalidad de quien utiliza dicha información o la interpreta.
               .col-lg-6
-                figure.d-none.d-lg-block
+                figure.d-none.d-xl-block
                   img(src='@/assets/curso/tema1/img14.svg', alt="" style="max-width: 400px").m-auto
     
     .row.m-0.mb-5.ajuste-espacios-movil
@@ -513,9 +513,9 @@
       .py-4.py-md-5(titulo="Objetivo" :icono="require('@/assets/curso/tema1/img39.svg')")
         .row.align-items-center
           .col-lg-6.mb-4.mb-md-0
-            figure.d-none.d-lg-block
+            figure.d-none.d-xl-block
               img(src='@/assets/curso/tema1/img41.png', alt="" style="max-width: 400px").m-auto
-          .col-lg-6.ajuste__movil_bloque4
+          .col-xl-6.ajuste__movil_bloque4
             h4 Objetivo
             ol.lista-ol--cuadro1.mb-4
               li 
@@ -527,13 +527,12 @@
                 .lista-ol--cuadro__vineta
                   span 2
                 | Los requerimientos de información a revelar relativos a políticas contables, excepto los referentes a cambios en las políticas contables han sido establecidos en la Norma Internacional de Contabilidad (NIC 1).  
-
       .py-4.py-md-5(titulo="Alcance" :icono="require('@/assets/curso/tema1/img40.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
-            figure.d-none.d-lg-block
+            figure.d-none.d-xl-block
               img(src='@/assets/curso/tema1/img42.png', alt="" style="max-width: 400px").m-auto
-          .col-lg-6.ajuste__movil_bloque4
+          .col-xl-6.ajuste__movil_bloque4
             h4 Alcance
             ol.lista-ol--cuadro1.mb-4
               li 
