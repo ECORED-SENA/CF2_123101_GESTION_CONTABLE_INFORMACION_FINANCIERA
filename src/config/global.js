@@ -72,7 +72,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Hechos económicos: concepto, clasificación',
+            titulo: 'Hecho contable: concepto, clasificación',
             hash: 't_2_1',
           },
           {

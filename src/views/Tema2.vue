@@ -16,7 +16,7 @@
     Separador
     <!-- BLOQUE 1 -->
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Hechos económicos: concepto, clasificación
+      h2 2.1 Hecho contable: concepto, clasificación
     
     figure.mb-5
       img(src='@/assets/curso/tema2/img1.png', alt="").m-auto
@@ -51,13 +51,13 @@
       .col
         h3 Clasificación
 
-    p.mb-5.ajuste-espacios-movil Una vez se ha realizado la clasificación de los elementos que intervienen en las transacciones generadas en la empresa, se realiza la contabilización a través de un asiento contable, los cuales se clasifican de la siguiente manera (<em>Warren, Reeves</em> y <em>Duchac</em>, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018):
+    p.mb-5.ajuste-espacios-movil Una vez se ha realizado la clasificación de los elementos que intervienen en las transacciones generadas en la empresa, se realiza la contabilización a través de un asiento contable, los cuales se clasifican de la siguiente manera (Warren, Reeves y Duchac, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018):
 
     .row.mb-4(data-aos="fade-right")
       .col.ajuste-h4-bloque2
         h4.mb-0 Asiento simple
     
-    p.mb-4 Es cuando intervienen dos cuentas, una que se registra en el debe y la otra en el haber, dependiendo del tipo de operación y el elemento de los estados financieros que se haya clasificado. 
+    p.mb-4 Es cuando intervienen dos cuentas, una que se registra en el <strong>debe</strong> y la otra en el <strong>haber</strong>, dependiendo del tipo de operación y el elemento de los estados financieros que se haya clasificado. 
 
     .row.justify-content-center.mb-5.m-0
       .fondo-color1
@@ -156,7 +156,7 @@
       .col
         h3 Cuenta
 
-    p.mb-4.ajuste-espacios-movil A través de las cuentas se clasifican y registran las transacciones. Es el nombre con el cual se registran de forma ordenada las diferentes operaciones comerciales generadas en una empresa. Es esencial que estas operaciones se elaboren en el momento que suceden; contribuyendo así a la obtención de información contable comprensible y oportuna (<em>Warren, Reeves</em> y <em>Duchac</em>, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018).
+    p.mb-4.ajuste-espacios-movil A través de las cuentas se clasifican y registran las transacciones. Es el nombre con el cual se registran de forma ordenada las diferentes operaciones comerciales generadas en una empresa. Es esencial que estas operaciones se elaboren en el momento que suceden; contribuyendo así a la obtención de información contable comprensible y oportuna (Warren, Reeves y Duchac, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018).
 
     p.mb-4 La cuenta se encuentra integrada por los siguientes elementos:
 
@@ -191,7 +191,7 @@
         figure(data-aos="fade-right").d-none.d-xl-block
           img(src="@/assets/curso/tema2/img10.png" style="max-width: 500px").m-auto
       .col-lg
-        p.mb-4 Cuando se registran las operaciones comerciales en el comprobante diario se procede a determinar el saldo de las cuentas. En caso de manejar software contable, se posibilita extraer los auxiliares de cada cuenta según la necesidad que surja para su análisis o consulta (<em>Warren, Reeves</em> y <em>Duchac</em>, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018). 
+        p.mb-4 Cuando se registran las operaciones comerciales en el comprobante diario se procede a determinar el saldo de las cuentas. En caso de manejar software contable, se posibilita extraer los auxiliares de cada cuenta según la necesidad que surja para su análisis o consulta (Warren, Reeves y Duchac, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018). 
         p.mb-0 Determinar el saldo significa restar los valores monetarios que se encuentran registrados en el <strong>debe</strong> y en el <strong>haber</strong>. Esta acción se realiza con la misma cuenta. Por ejemplo, se desea conocer el saldo de la cuenta de caja, entonces se revisan todos los movimientos débitos y los créditos; seguidamente, se determina la diferencia y el resultado de esta operación es el saldo de la cuenta caja; este saldo refleja el dinero con que se cuenta en efectivo y, por ser del activo, su naturaleza es débito.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -204,7 +204,7 @@
     .row.mb-5.align-items-center.ajuste-espacios-movil
       .col-lg
         p.caja-text-bloque1 En la primera unidad temática se analizó el concepto de los elementos de los estados financieros, conforme a lo estipulado en el Marco Conceptual de Información Financiera (CTCP, 2010). A partir de ello, se profundizó en el concepto y se analizó su naturaleza con el fin de registrar la transacción de forma correcta y, de esta manera generar reportes útiles para la administración. 
-        p.mb-0 Las cuentas de acuerdo con su naturaleza se encuentran clasificadas en reales o de balance, y nominales o de resultado (<em>Warren, Reeves</em> y <em>Duchac</em>, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018; CTCP, 2010):
+        p.mb-0 Las cuentas de acuerdo con su naturaleza se encuentran clasificadas en reales o de balance, y nominales o de resultado (Warren, Reeves y Duchac, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018; CTCP, 2010):
       .col-lg-auto
         figure(data-aos="fade-right").d-none.d-xl-block
             img(src="@/assets/curso/tema2/img11.svg" style="max-width: 400px").m-auto
@@ -313,7 +313,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 3.
-          span Dinámica contable según la naturaleza de las cuentas.
+          span Dinámica contable según la naturaleza de las cuentas
         .tabla-a.mb-4(data-aos="fade-up")
           table
             thead
@@ -323,27 +323,27 @@
                 th Disminuye
             tbody
               tr  
-                td.ajuste-border-tabla Activo
+                td.ajuste___left.ajuste-border-tabla Activo
                 td.ajuste-border-tabla Débito
                 td Crédito
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Pasivo
+                td.ajuste___left.ajuste-border-tabla Pasivo
                 td.ajuste-border-tabla Crédito
                 td Débito
               tr  
-                td.ajuste-border-tabla Patrimonio
+                td.ajuste___left.ajuste-border-tabla Patrimonio
                 td.ajuste-border-tabla Crédito
                 td Débito
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Ingresos
+                td.ajuste___left.ajuste-border-tabla Ingresos
                 td.ajuste-border-tabla Crédito
                 td Débito
               tr
-                td.ajuste-border-tabla Gastos
+                td.ajuste___left.ajuste-border-tabla Gastos
                 td.ajuste-border-tabla Débito
                 td Crédito
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Costos
+                td.ajuste___left.ajuste-border-tabla Costos
                 td.ajuste-border-tabla Débito
                 td Crédito
     
@@ -396,9 +396,9 @@
         .col-lg
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 4.
-            span Estructura del plan único de cuentas (PUC).
+            span Estructura del plan único de cuentas (PUC)
           .tabla-a.mb-4(data-aos="fade-up")
-            table
+            table.ajuste___left_1
               caption Fuente: Decreto 2650 de 1993.
               thead
                 tr
@@ -436,9 +436,9 @@
         .col-lg
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 5. 
-            span Clasificación de las cuentas según el Plan Único de Cuentas (Decreto 2650 de 1993).
+            span Clasificación de las cuentas según el Plan Único de Cuentas (Decreto 2650 de 1993)
           .tabla-a.mb-4(data-aos="fade-up")
-            table
+            table.ajuste___left_1
               caption Fuente: Decreto 2650 de 1993.
               thead
                 tr
@@ -496,21 +496,21 @@
                   th Haber
               tbody
                 tr  
-                  td.ajuste-border-tabla Inventarios
-                  td.ajuste-border-tabla $ 2.000.000
+                  td.ajuste___left.ajuste-border-tabla Inventarios
+                  td.ajuste___right.ajuste-border-tabla $ 2.000.000
                   td 
                 tr.ajuste-color-tabla-1
-                  td.ajuste-border-tabla IVA descontable
-                  td.ajuste-border-tabla $ 380.000
+                  td.ajuste___left.ajuste-border-tabla IVA descontable
+                  td.ajuste___right.ajuste-border-tabla $ 380.000
                   td 
                 tr  
-                  td.ajuste-border-tabla Proveedores Nacionales
+                  td.ajuste___left.ajuste-border-tabla Proveedores Nacionales
                   td.ajuste-border-tabla 
-                  td $ 2.380.000
+                  td.ajuste___right $ 2.380.000
                 tr.ajuste-color-tabla-1
-                  td.ajuste-border-tabla Total
-                  td.ajuste-border-tabla $ 2.380.000
-                  td $ 2.380.000
+                  td.ajuste___left.ajuste-border-tabla Total
+                  td.ajuste___right.ajuste-border-tabla $ 2.380.000
+                  td.ajuste___right $ 2.380.000
       
       p.mb-5 En el ejemplo anterior, se tiene el valor del inventario por $ 2.000.000, se calcula el IVA del 19 % sobre este valor, dando el resultado de $ 380.000. Finalmente, se determina el total de la cuenta por pagar (proveedores nacionales); donde se suma el valor del inventario y el IVA. Esto, teniendo en cuenta que el IVA incrementa el valor del producto que, como su nombre lo indica, es un valor agregado. Así mismo, se observa que se cumple con el principio de partida doble, reflejando igualdad entre el <strong>debe</strong> y <strong>haber</strong> por valor de $ 2.380.000.
 
@@ -530,17 +530,17 @@
                   th Haber
               tbody
                 tr  
-                  td.ajuste-border-tabla Equipo computación
-                  td.ajuste-border-tabla $ 3.800.000
+                  td.ajuste___left.ajuste-border-tabla Equipo computación
+                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
                   td 
                 tr.ajuste-color-tabla-1
-                  td.ajuste-border-tabla Acreedores varios
+                  td.ajuste___left.ajuste-border-tabla Acreedores varios
                   td.ajuste-border-tabla 
-                  td $ 3.800.000
+                  td.ajuste___right $ 3.800.000
                 tr  
-                  td.ajuste-border-tabla Total
-                  td.ajuste-border-tabla $ 3.800.000
-                  td $ 3.800.000
+                  td.ajuste___left.ajuste-border-tabla Total
+                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
+                  td.ajuste___right $ 3.800.000
 
       p.mb-5 Se registra el activo- equipo de computación, presentando aumento (débito) y acreedores varios en el pasivo (crédito) incrementando el valor de la deuda.
 
@@ -560,17 +560,17 @@
                   th Haber
               tbody
                 tr  
-                  td.ajuste-border-tabla Acreedores varios
-                  td.ajuste-border-tabla $ 3.800.000
+                  td.ajuste___left.ajuste-border-tabla Acreedores varios
+                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
                   td 
                 tr.ajuste-color-tabla-1
-                  td.ajuste-border-tabla Bancos
+                  td.ajuste___left.ajuste-border-tabla Bancos
                   td.ajuste-border-tabla 
-                  td $ 3.800.000
+                  td.ajuste___right $ 3.800.000
                 tr  
-                  td.ajuste-border-tabla Total
-                  td.ajuste-border-tabla $ 3.800.000
-                  td $ 3.800.000
+                  td.ajuste___left.ajuste-border-tabla Total
+                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
+                  td.ajuste___right $ 3.800.000
                   
       p.mb-5 Teniendo en cuenta que se cancela la deuda, disminuye el pasivo- acreedores varios (débito) y a su vez la cuenta de banco (crédito), considerando que se presenta una salida de dinero. Cabe resaltar, que esta clase de cuentas tienen naturaleza diferente.
 
@@ -590,21 +590,21 @@
                   th Haber
               tbody
                 tr  
-                  td.ajuste-border-tabla Efectivo
-                  td.ajuste-border-tabla $ 10.000.000
+                  td.ajuste___left.ajuste-border-tabla Efectivo
+                  td.ajuste___right.ajuste-border-tabla $ 10.000.000
                   td 
                 tr.ajuste-color-tabla-1
-                  td.ajuste-border-tabla Maquinaria y equipo
-                  td.ajuste-border-tabla $ 10.000.000
+                  td.ajuste___left.ajuste-border-tabla Maquinaria y equipo
+                  td.ajuste___right.ajuste-border-tabla $ 10.000.000
                   td 
                 tr  
-                  td.ajuste-border-tabla Aportes sociales
+                  td.ajuste___left.ajuste-border-tabla Aportes sociales
                   td.ajuste-border-tabla 
-                  td $ 20.000.000
+                  td.ajuste___right $ 20.000.000
                 tr.ajuste-color-tabla-1
-                  td.ajuste-border-tabla Total
-                  td.ajuste-border-tabla $ 20.000.000
-                  td $ 20.000.000
+                  td.ajuste___left.ajuste-border-tabla Total
+                  td.ajuste___right.ajuste-border-tabla $ 20.000.000
+                  td.ajuste___right $ 20.000.000
                   
       p.mb-5 Se registra el aumento (débito) del activo en las cuentas de efectivo y maquinaria de equipo, a su vez, el aumento (crédito) en la cuenta de patrimonio-aportes sociales. 
 
@@ -624,17 +624,17 @@
                   th Haber
               tbody
                 tr  
-                  td.ajuste-border-tabla Gastos de arrendamiento
-                  td.ajuste-border-tabla $ 800.000
+                  td.ajuste___left.ajuste-border-tabla Gastos de arrendamiento
+                  td.ajuste___right.ajuste-border-tabla $ 800.000
                   td 
                 tr.ajuste-color-tabla-1
-                  td.ajuste-border-tabla Efectivo
+                  td.ajuste___left.ajuste-border-tabla Efectivo
                   td.ajuste-border-tabla 
-                  td $ 800.000
+                  td.ajuste___right $ 800.000
                 tr  
-                  td.ajuste-border-tabla Total
-                  td.ajuste-border-tabla $ 800.000
-                  td $ 800.000
+                  td.ajuste___left.ajuste-border-tabla Total
+                  td.ajuste___right.ajuste-border-tabla $ 800.000
+                  td.ajuste___right $ 800.000
                   
     p.mb-4.ajuste-espacios-movil Recuerde que, para realizar el registro de las operaciones en los comprobantes y libros contables, es indispensable tener en cuenta:
 
@@ -710,29 +710,29 @@
                 th Valor
             tbody
               tr  
-                td.ajuste-border-tabla Efectivo
-                td $ 2.500.000 
+                td.ajuste___left.ajuste-border-tabla Efectivo
+                td.ajuste___right $ 2.500.000 
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Deudores
-                td $ 2.000.000 
+                td.ajuste___left.ajuste-border-tabla Deudores
+                td.ajuste___right $ 2.000.000 
               tr  
-                td.ajuste-border-tabla Inventarios
-                td $ 2.800.000 
+                td.ajuste___left.ajuste-border-tabla Inventarios
+                td.ajuste___right $ 2.800.000 
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Propiedad, planta y equipo
-                td $ 6.500.000 
+                td.ajuste___left.ajuste-border-tabla Propiedad, planta y equipo
+                td.ajuste___right $ 6.500.000 
               tr  
-                td.ajuste-border-tabla Proveedores nacionales
-                td $ 8.800.000 
+                td.ajuste___left.ajuste-border-tabla Proveedores nacionales
+                td.ajuste___right $ 8.800.000 
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Capital
-                td $ 5.000.000 
+                td.ajuste___left.ajuste-border-tabla Capital
+                td.ajuste___right $ 5.000.000 
               tr  
-                td.ajuste-border-tabla Ingresos actividades ordinarias
-                td $ 10.000.000 
+                td.ajuste___left.ajuste-border-tabla Ingresos actividades ordinarias
+                td.ajuste___right $ 10.000.000 
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Gastos
-                td $ 4.000.000 
+                td.ajuste___left.ajuste-border-tabla Gastos
+                td.ajuste___right $ 4.000.000 
                 
     p.mb-4.ajuste-espacios-movil La ecuación que debe verificarse es la siguiente:
 
@@ -740,7 +740,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 1.    
-      span Representación de la ecuación contable básica.
+      span Representación de la ecuación contable básica
     
     .row.mb-5
       .col-lg-auto

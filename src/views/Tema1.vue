@@ -132,7 +132,7 @@
             .row(titulo="1988").align-items-center
               .col-lg-6.mb-4.mb-md-0.ajuste-text-bloque1
                 h4.mb-3 1988
-                p En Estados Unidos, <em>William Burroughs</em> patentó la primera sumadora de teclas, y en 1920 el gobierno, la banca y las bolsas de valores comenzaron a exigir estados financieros certificados por contadores públicos independientes.
+                p En Estados Unidos, William Burroughs patentó la primera sumadora de teclas, y en 1920 el gobierno, la banca y las bolsas de valores comenzaron a exigir estados financieros certificados por contadores públicos independientes.
               .col-lg-6
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/tema1/img13.svg', alt="" style="max-width: 400px").m-auto
@@ -169,7 +169,7 @@
       .col-lg
         .bloque-texto-c.p-4.mb-2
           i.fas.fa-quote-right
-          h5.mb-4 Proporcionar información financiera sobre la entidad que informa que sea útil a los inversores, prestamistas y otros acreedores existentes y potenciales para tomar decisiones sobre el suministro de recursos a la entidad. Esas decisiones conllevan, comprar, vender o mantener patrimonio e instrumentos de deuda, y proporcionar o liquidar préstamos y otras formas de crédito.
+          h5.mb-4 Proporcionar información financiera sobre la entidad que informa que sea útil a los inversores, prestamistas y otros acreedores existentes y potenciales para tomar decisiones sobre el suministro de recursos a la entidad. Esas decisiones conllevan, comprar, vender o mantener patrimonio e instrumentos de deuda, y proporcionar o liquidar préstamos y otras formas de crédito".
           span - Consejo de Normas Internacionales de Contabilidad (2018) (p. 10).
         p.ajuste-espacios-movil-1 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
         a.anexo.ajuste__anexo.m-2(:href="obtenerLink('/downloads/5-c-Marco-Conceptual-para-la.pdf')" target="_blank")
@@ -359,7 +359,7 @@
             .col-lg
               p.mb-0 <strong>Definición de gastos</strong>: disminuciones en los activos o incrementos en los pasivos que dan lugar a disminuciones en el patrimonio, distintos de los relacionados con distribuciones de los tenedores de derechos sobre el patrimonio.
         p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018) a través del siguiente enlace: 
-        a.anexo.ajuste__anexo.m-2(:href="obtenerLink('/downloads/5-c-Marco-Conceptual-para-la.pdf')" target="_blank")
+        a.anexo.ajuste__anexo.m-2(:href="obtenerLink('http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -437,19 +437,19 @@
             .row(titulo="Costo histórico").ajuste-cajaAcordion
               p Es el precio de transacción, el valor de adquisición, de compra o creación de un activo. Es el valor de la contraprestación recibida al obtener el pasivo.
             .row(titulo="Valor corriente").ajuste-cajaAcordion
-              p Las mediciones del valor corriente proporcionan información monetaria sobre activos, pasivos, e ingresos y gastos relacionados, usando información actualizada para reflejar las condiciones en la fecha de medición. Debido a la continua actualización, los valores corrientes de activos y pasivos reflejan los cambios, desde la fecha de medición anterior, en las estimaciones de flujos de efectivo y otros factores reflejados en los valores corrientes” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).       
+              p "Las mediciones del valor corriente proporcionan información monetaria sobre activos, pasivos, e ingresos y gastos relacionados, usando información actualizada para reflejar las condiciones en la fecha de medición. Debido a la continua actualización, los valores corrientes de activos y pasivos reflejan los cambios, desde la fecha de medición anterior, en las estimaciones de flujos de efectivo y otros factores reflejados en los valores corrientes” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).       
             .row(titulo="Valor razonable").ajuste-cajaAcordion
-              p Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado, en la fecha de la medición” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
+              p "Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado, en la fecha de la medición” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
             .row(titulo="Valor en uso y valor de cumplimiento").ajuste-cajaAcordion
-              p El valor en uso es el valor presente de los flujos de efectivo, o de otros beneficios económicos, que una entidad espera obtener del uso de un activo y de su disposición final. El valor de cumplimiento es el valor presente de los flujos de efectivo o de otros beneficios económicos, que una entidad espera verse obligada a transferir a medida que satisface un pasivo” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
+              p "El valor en uso es el valor presente de los flujos de efectivo, o de otros beneficios económicos, que una entidad espera obtener del uso de un activo y de su disposición final. El valor de cumplimiento es el valor presente de los flujos de efectivo o de otros beneficios económicos, que una entidad espera verse obligada a transferir a medida que satisface un pasivo” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
             .row(titulo="Costo corriente").ajuste-cajaAcordion
-              p El costo corriente de un activo es el costo de un activo equivalente en la fecha de medición, que comprende la contraprestación que se pagaría en la fecha de medición más los costos de transacción en los que se incurriría en esa fecha” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
+              p "El costo corriente de un activo es el costo de un activo equivalente en la fecha de medición, que comprende la contraprestación que se pagaría en la fecha de medición más los costos de transacción en los que se incurriría en esa fecha” (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
     
     .row.mb-5.justify-content-center.ajuste-espacios-movil.m-0
       .caja-nota-bloque2
         .col-lg-auto
           p.mb-4 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018) a través del siguiente enlace:
-          a.anexo.ajuste__anexo.m-2(:href="obtenerLink('/downloads/5-c-Marco-Conceptual-para-la.pdf')" target="_blank")
+          a.anexo.ajuste__anexo.m-2(:href="obtenerLink('http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -464,7 +464,7 @@
         p Es de suma importancia presentar información financiera confiable, oportuna, comprensible y comparable, con el fin de facilitar la toma de decisiones a la gerencia:
         .bloque-texto-c.p-4.mb-2
           i.fas.fa-quote-right
-          h5.mb-4 La comunicación efectiva de la información de los estados financieros requiere: (a) centrarse en los objetivos y principios de presentación e información a revelar en lugar de centrarse en reglas; (b) clasificar la información de forma que agrupe las partidas similares juntas y las diferentes de forma separada; y (c) agregar información de forma que no se ensombrezca con detalles innecesarios o agregación excesiva.
+          h5.mb-4 La comunicación efectiva de la información de los estados financieros requiere: (a) centrarse en los objetivos y principios de presentación e información a revelar en lugar de centrarse en reglas; (b) clasificar la información de forma que agrupe las partidas similares juntas y las diferentes de forma separada; y (c) agregar información de forma que no se ensombrezca con detalles innecesarios o agregación excesiva.""
           span - (Consejo de Normas Internacionales de Contabilidad, 2018).
     
     Separador
@@ -549,7 +549,7 @@
       .caja-nota-bloque2.ajuste__color
         .col-lg-auto
           p.mb-4 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise la Norma Internacional de Contabilidad -NIC 8- (Consejo Técnico de la Contaduría Pública -CTCP-, 2010), a través del siguiente enlace:
-          a.anexo.ajuste__anexo.m-2(:href="obtenerLink('/downloads/1534369239-2962.pdf')" target="_blank")
+          a.anexo.ajuste__anexo.m-2(:href="obtenerLink('http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369239-2962')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
