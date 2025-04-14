@@ -2,20 +2,20 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Fundamentos contables
     
     p.mb-4 En los fundamentos contables, las políticas contables son esenciales para garantizar la claridad y transparencia de la información financiera, facilitando el análisis y toma de decisiones en la gestión empresarial.
   
-    figure
+    figure(data-aos="fade-up")
       .video
        <iframe width="560" height="315" src="https://www.youtube.com/embed/lok_ojpOwcc" title="Fundamentos contables" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     Separador
     <!-- BLOQUE 1 -->
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Hecho contable: concepto, clasificación
     
     figure.mb-5
@@ -31,7 +31,7 @@
     .row.mb-5.align-items-center.ajuste-espacios-movil
       .col-lg
         p El hecho contable hace referencia a la transacción u operación realizada por la empresa que debe ser registrada de acuerdo con los criterios de reconocimiento y medición. Además, se deben tener en cuenta las políticas diseñadas por la entidad.
-        p.mb-0.caja-text-bloque1 Esta parte es fundamental, aquí se tiene en cuenta si la transacción que se generó hace parte de un activo, pasivo, patrimonio, ingresos o gastos; de allí, la importancia de conocer la definición y características establecidas para su reconocimiento. De igual forma, se tienen en cuenta las bases de medición, las cuales se encuentran registradas en las políticas contables que fueron diseñadas conforme las directrices señaladas en la NIC 8 (CTCP, 2010).
+        p.mb-0.caja-text-bloque1(data-aos="fade-right") Esta parte es fundamental, aquí se tiene en cuenta si la transacción que se generó hace parte de un activo, pasivo, patrimonio, ingresos o gastos; de allí, la importancia de conocer la definición y características establecidas para su reconocimiento. De igual forma, se tienen en cuenta las bases de medición, las cuales se encuentran registradas en las políticas contables que fueron diseñadas conforme las directrices señaladas en la NIC 8 (CTCP, 2010).
       .col-lg-auto
         figure(data-aos="fade-left").d-none.d-xl-block
           img(src="@/assets/curso/tema2/img2.png" style="max-width: 400px").m-auto
@@ -139,10 +139,10 @@
                 
     Separador
     <!-- BLOQUE 2 -->
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Cuenta: concepto y clasificación
     
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-up")
       .bloque-texto-g__img.ajuste___img__2
         figure
           img(src="@/assets/curso/tema2/img6.svg", alt="" style="max-width: 320px")
@@ -161,7 +161,7 @@
     p.mb-4 La cuenta se encuentra integrada por los siguientes elementos:
 
     .row.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -169,7 +169,7 @@
                 img(src='@/assets/curso/tema2/img7.svg', alt="" style="max-width: 95px").m-auto
           h3.text-center Nombre
           p Debe registrarse de forma completa de acuerdo con la asignación establecida.
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -177,7 +177,7 @@
                 img(src='@/assets/curso/tema2/img8.svg', alt="" style="max-width: 95px").m-auto
           h3.text-center El debe
           p Se registra en el lado izquierdo para indicar los débitos de la transacción.
-      .col-lg-4.mb-4.mb-sm-0
+      .col-lg-4.mb-4.mb-sm-0(data-aos="fade-left")
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -203,10 +203,10 @@
 
     .row.mb-5.align-items-center.ajuste-espacios-movil
       .col-lg
-        p.caja-text-bloque1 En la primera unidad temática se analizó el concepto de los elementos de los estados financieros, conforme a lo estipulado en el Marco Conceptual de Información Financiera (CTCP, 2010). A partir de ello, se profundizó en el concepto y se analizó su naturaleza con el fin de registrar la transacción de forma correcta y, de esta manera generar reportes útiles para la administración. 
+        p.caja-text-bloque1(data-aos="fade-right") En la primera unidad temática se analizó el concepto de los elementos de los estados financieros, conforme a lo estipulado en el Marco Conceptual de Información Financiera (CTCP, 2010). A partir de ello, se profundizó en el concepto y se analizó su naturaleza con el fin de registrar la transacción de forma correcta y, de esta manera generar reportes útiles para la administración. 
         p.mb-0 Las cuentas de acuerdo con su naturaleza se encuentran clasificadas en reales o de balance, y nominales o de resultado (Warren, Reeves y Duchac, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018; CTCP, 2010):
       .col-lg-auto
-        figure(data-aos="fade-right").d-none.d-xl-block
+        figure(data-aos="fade-left").d-none.d-xl-block
             img(src="@/assets/curso/tema2/img11.svg" style="max-width: 400px").m-auto
 
     .row.mb-4(data-aos="fade-right")
@@ -220,7 +220,7 @@
         .col-lg-auto
           figure(data-aos="fade-up").d-none.d-xl-block
             img(src="@/assets/curso/tema2/img12.svg", alt="" style="width: 400px").m-auto
-        .col-lg
+        .col-lg(data-aos="fade-left")
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Activo").ajuste-cajaAcordion-1
               <ul class="fa-ul ajuste-ul-bloque4">
@@ -267,7 +267,7 @@
 
     .bg--img_03.mb-4
       .row.h-100.align-items-center
-        .col-lg
+        .col-lg(data-aos="fade-right")
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Ingresos").ajuste-cajaAcordion-1
               <ul class="fa-ul ajuste-ul-bloque4">
@@ -355,26 +355,26 @@
           img(src="@/assets/curso/tema2/img14.svg" style="max-width: 400px").m-auto
       .col-lg
         p El PUC se encuentra integrado por el catálogo de cuentas, descripciones y dinámicas que orientan y facilitan el registro de las transacciones generadas.
-        p.mb-0.caja-text-bloque2-1 En coherencia con las normas internacionales no se utiliza el Plan Único de Cuentas. Sin embargo, en Colombia las empresas siguen utilizándolo. Los PUC han sido modificados conforme a las necesidades de las empresas a través del tiempo. En algunos casos se incorporan o eliminan cuentas. También, se cambian nombres y códigos con el fin de generar estados financieros que cumplan con la taxonomía XBRL.
+        p.mb-0.caja-text-bloque2-1(data-aos="fade-left") En coherencia con las normas internacionales no se utiliza el Plan Único de Cuentas. Sin embargo, en Colombia las empresas siguen utilizándolo. Los PUC han sido modificados conforme a las necesidades de las empresas a través del tiempo. En algunos casos se incorporan o eliminan cuentas. También, se cambian nombres y códigos con el fin de generar estados financieros que cumplan con la taxonomía XBRL.
     
     p.mb-4.ajuste-espacios-movil La taxonomía XBRL (<em>eXtensible Business Reporting Language</em>) es una norma que se usa para comunicar información financiera entre preparadores y usuarios de la información financiera. La Fundación IFRS es responsable del desarrollo de la representación XBRL de las NIIF - incluyendo las Normas NIC, las Interpretaciones CINIIF y la Norma NIIF para las PYMES - emitida por el Consejo de Normas Internacionales de Contabilidad (2018), conocida como la Taxonomía NIIF, la cual establece (IFRS <em>Foundation</em>, 2019): 
 
     .row.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img(src='@/assets/curso/tema2/img15.svg', alt="" style="max-width: 95px").m-auto
           p La jerarquía de la taxonomía y los elementos que la componen. 
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img(src='@/assets/curso/tema2/img16.svg', alt="" style="max-width: 95px").m-auto
           p El formato requerido de estos elementos, tales como texto, valores monetarios, etc. 
-      .col-lg-4.mb-4.mb-sm-0
+      .col-lg-4.mb-4.mb-sm-0(data-aos="fade-left")
         .tarjeta--boton.p-5.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -468,7 +468,7 @@
     
     Separador
     <!-- BLOQUE 3 -->
-    #t_2_3.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Partida doble
     
     .row.fondo-tema2
@@ -663,7 +663,7 @@
 
     Separador
     <!-- BLOQUE 4 -->
-    #t_2_4.titulo-segundo.color-acento-contenido
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4 Ecuación contable
 
     p.mb-5 El principio de partida doble contribuye al cumplimiento de la ecuación contable o patrimonial, teniendo en cuenta que al presentarse la igualdad entre los débitos y los créditos se reflejará el equilibrio de las cuentas de activo, pasivo y patrimonio, denominadas comúnmente como cuentas reales o de balance. Estas son utilizadas para elaborar el estado de situación financiera (Tapia y Jiménez, 2018; Cuaspa, 2013; Vilches; 2019; Angulo, 2018).
@@ -801,14 +801,14 @@
       .col-lg-4
         h5.caja-text-tema2-bloque4-2.ajuste___width_2(data-aos="fade-right") Patrimonio = Activo - Pasivo
       .col-lg-4
-        h5.caja-text-tema2-bloque4-2.ajuste___width_3(data-aos="fade") Patrimonio = $19.500.000 - $15.000.000
+        h5.caja-text-tema2-bloque4-2.ajuste___width_3(data-aos="fade-up") Patrimonio = $19.500.000 - $15.000.000
       .col-lg-4
         h5.caja-text-tema2-bloque4-2.ajuste___width_2(data-aos="fade-left") Patrimonio = $4.500.000
 
-    .row.m-0.justify-content-center
+    .row.m-0.justify-content-center(data-aos="fade-up")
       .caja-text-img-nota__4
         .col-lg-auto
-          figure.d-none.d-xl-block
+          figure.d-none.d-xl-block(data-aos="fade-right")
             img(src="@/assets/curso/tema2/img27.svg" style="width: 200px").m-auto
         .col-lg.ajuste__parrafo_4
           p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise las referencias bibliográficas propuestas de la biblioteca SENA, entre ellas se encuentra:

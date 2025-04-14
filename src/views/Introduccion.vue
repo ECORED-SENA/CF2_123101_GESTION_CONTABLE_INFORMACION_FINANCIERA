@@ -2,13 +2,13 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-up")
       .bloque-texto-g__img
         figure
           img(src="@/assets/curso/intro/img1.svg", alt="" style="max-width: 240px")
@@ -18,7 +18,7 @@
     .row.mb-4.align-items-center
       .col-lg
         p.ajuste-espacios-movil Dependiendo del tipo de empresa, se aplican las normas pertinentes en desarrollo de su objeto social y el grupo de presentación de información financiera. Por ello, es indispensable el diseño e implementación de políticas contables que garanticen la uniformidad de la información contable, de acuerdo con los estándares internacionales planteados en las NIIF.
-        p.mb-0.ajuste-text-intro Este componente formativo lo orientará en el desarrollo de los procesos contables. Se demanda del aprendiz análisis y comprensión del contenido para lograr un aprendizaje significativo.
+        p.mb-0.ajuste-text-intro(data-aos="fade-right") Este componente formativo lo orientará en el desarrollo de los procesos contables. Se demanda del aprendiz análisis y comprensión del contenido para lograr un aprendizaje significativo.
       .col-lg-auto
         figure(data-aos="fade-left").d-none.d-lg-block
           img(src="@/assets/curso/intro/img2.svg", alt="" style="max-width: 500px").m-auto
