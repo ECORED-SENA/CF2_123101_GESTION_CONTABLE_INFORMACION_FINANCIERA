@@ -171,23 +171,6 @@ export default {
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4276',
     },
-    {
-      tema: 'Política contable de activos mantenidos para la venta',
-      referencia:
-        'Congreso de Colombia. (2019). Ley 1955 de 2019: Por la cual se expide el Plan Nacional de Desarrollo 2018-2022 "Pacto por Colombia, Pacto por la Equidad".',
-      tipo: 'Página web',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=93353',
-    },
-    {
-      tema:
-        'Reconocimiento, medición, presentación y revelación de activos mantenidos para la venta',
-      referencia:
-        'Congreso de Colombia. (2020). Ley 2069 de 2020: Por medio de la cual se impulsa el emprendimiento en Colombia. Diario Oficial No. 51.521.',
-      tipo: 'Página web',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=147696',
-    },
   ],
   glosario: [
     {
@@ -316,14 +299,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos ',
+          cargo: 'Líder del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -331,9 +314,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Patricia Mantilla Galvis',
+          cargo: 'Experto temático',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Maryuri Agudelo Franco',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica. - Regional Distrito Capital',
         },
       ],
     },
@@ -341,34 +330,80 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Robinson Javier Ordoñez Barreiro',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Zuleidy Maria Ruiz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Caceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodriguez Rodriguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Maria Carolina Tamayo',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carmen Martinez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ludwyn Corzo',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

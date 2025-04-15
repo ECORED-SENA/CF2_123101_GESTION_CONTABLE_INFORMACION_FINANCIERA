@@ -8,6 +8,8 @@
       h1 Fundamentos contables
     
     p.mb-4 En los fundamentos contables, las políticas contables son esenciales para garantizar la claridad y transparencia de la información financiera, facilitando el análisis y toma de decisiones en la gestión empresarial.
+
+    p.mb-4 A continuación: se presenta los fundamentos contables, resaltando la importancia de comprender conceptos clave como activo, pasivo, patrimonio, ingresos y gastos.
   
     figure(data-aos="fade-up")
       .video
@@ -745,7 +747,7 @@
     .row.mb-5
       .col-lg-auto
         figure(data-aos="fade-up")
-          img(src="@/assets/curso/tema2/img25.svg" alt="Representación molecular de la sacarosa, un disacárido formado por la unión de una molécula de glucosa y una de fructosa mediante un enlace glucosídico. Se conoce como azúcar de mesa." style="max-width: 1230px").m-auto
+          img(src="@/assets/curso/tema2/img25.svg" alt="Tabla sobre la ecuación contable con dos columnas principales: Activo y Pasivo. La columna de Activo incluye efectivo, deudores, inventarios y propiedad, planta y equipo, sumando $19.500.000. La columna de Pasivo contiene obligaciones financieras por $15.000.000, y en la sección de Patrimonio se registra capital por $4.500.000, totalizando $19.500.000 entre pasivo y patrimonio." style="max-width: 1230px").m-auto
 
     p.mb-4.ajuste-espacios-movil Para determinar la ecuación contable, se clasifican los elementos de los estados financieros correspondientes a las cuentas de activo, pasivo y patrimonio. Se omiten las cuentas relacionadas de ingresos y gastos en la información suministrada, teniendo en cuenta que estas se incorporan en el estado de resultados integral. Así mismo, se observa que el valor de activos correspondiente a $ 13.800.000, es igual a la sumatoria de pasivo y patrimonio, cumpliendo con lo estipulado en la ecuación.
 
