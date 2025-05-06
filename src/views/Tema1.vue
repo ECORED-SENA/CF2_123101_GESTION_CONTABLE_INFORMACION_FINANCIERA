@@ -553,7 +553,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-              p <strong>Anexo</strong>. Marco Conceptual para la Información Financiera
+              p <strong>Anexo</strong>. Norma Internacional de Contabilidad 8
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -615,15 +615,15 @@
             <li class="mb-3"><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Presentación y revelación de los estados financieros.</li>
           </ul>
 
-    .row.m-0.ajuste-espacios-movil-2.caja-text-img-nota.ajuste___color(data-aos="fade-up")
+    .row.m-0.ajuste-espacios-movil-2.caja-text-img-nota.ajuste___color(data-aos="fade-right")
       .col-xl-auto.align-self-center
-        figure(data-aos="fade-right").d-none.d-xl-block
+        figure.d-none.d-xl-block
           img(src="@/assets/curso/tema1/img50.svg" style="width: 100px").m-auto
       .col-xl-9
         h4.mb-0 Normograma actualizado de las obligaciones del comerciante y funciones de las Cámaras de Comercio en Colombia 
         p.mb-0 Se invita a leer este documento, donde se resumen las normas clave sobre las obligaciones legales de los comerciantes y las funciones de las Cámaras de Comercio en Colombia. Ofrece explicaciones claras y útiles para facilitar el cumplimiento normativo. Ideal para empresarios, estudiantes y profesionales del derecho comercial.
       .col-xl-1.align-self-center
-        a.boton.color-acento-botones.ajuste___boton.mb-4(:href="obtenerLink('/downloads/Normograma_actualizado_obligaciones_comerciante_funciones_Cámaras_Comercio_Colombia.pdf')" target="_blank")
+        a.boton.color-acento-botones.ajuste___boton.mb-4(:href="obtenerLink('/downloads/Anexo_Normograma_de_comerciantes_y_camaras_de_comercio_Colombia.pdf')" target="_blank")
           span Descargar
           i.fas.fa-file-download
 

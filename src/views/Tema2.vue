@@ -83,16 +83,16 @@
                 tbody
                   tr  
                     td.ajuste-border-tabla Bancos
-                    td.ajuste-border-tabla $ 1.000.000
-                    td 
+                    td.ajuste-border-tabla.ajuste___right $1.000.000
+                    td.ajuste___right -
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla Caja
-                    td.ajuste-border-tabla 
-                    td $ 1.000.000
+                    td.ajuste-border-tabla.ajuste___right -
+                    td.ajuste___right $1.000.000
                   tr  
                     td.ajuste-border-tabla Total
-                    td.ajuste-border-tabla $ 1.000.000
-                    td $ 1.000.000
+                    td.ajuste-border-tabla.ajuste___right $1.000.000
+                    td.ajuste___right $1.000.000
             p.mb-0 De acuerdo con lo anterior, se observa que en el débito y crédito se registra el mismo valor, presentan un equilibrio en la transacción; es decir, se igualan débitos y créditos, lo que es denominado principio de partida doble.
 
     .row.mb-4(data-aos="fade-right")
@@ -104,7 +104,7 @@
     .row.justify-content-center.m-0
       .fondo-color1
         h4 Ejemplo:
-        p Se realiza una venta por $ 10.000.000 a crédito, calcular IVA del 19 %.  En esta transacción intervienen tres cuentas: ingresos por actividad ordinarias (crédito) correspondiente a los ingresos, IVA generado (débito) de los pasivos y, finalmente, la cuenta de clientes (crédito) perteneciente al activo. De acuerdo con la naturaleza de las cuentas y si se presenta un aumento o disminución, se registra la transacción mediante el asiento contable como se observa a continuación:
+        p Se realiza una venta por $10.000.000 a crédito, calcular IVA del 19 %.  En esta transacción intervienen tres cuentas: ingresos por actividad ordinarias (crédito) correspondiente a los ingresos, IVA generado (débito) de los pasivos y, finalmente, la cuenta de clientes (crédito) perteneciente al activo. De acuerdo con la naturaleza de las cuentas y si se presenta un aumento o disminución, se registra la transacción mediante el asiento contable como se observa a continuación:
         .row.align-items-center.mb-2
           .col-lg-auto
             figure(data-aos="fade-right").d-none.d-xl-block
@@ -123,21 +123,21 @@
                 tbody
                   tr  
                     td.ajuste-border-tabla Clientes
-                    td.ajuste-border-tabla $ 11.900.000
-                    td 
+                    td.ajuste-border-tabla.ajuste___right $11.900.000
+                    td.ajuste___right -
                   tr.ajuste-color-tabla 
                     td.ajuste-border-tabla IVA generado
-                    td.ajuste-border-tabla 
-                    td $ 1.900.000
+                    td.ajuste-border-tabla.ajuste___right -
+                    td.ajuste___right $1.900.000
                   tr  
                     td.ajuste-border-tabla Ingresos por actividades ordinarias
-                    td.ajuste-border-tabla
-                    td $ 10.000.000
+                    td.ajuste-border-tabla.ajuste___right -
+                    td.ajuste___right $10.000.000
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla Total
-                    td.ajuste-border-tabla $ 11.900.000
-                    td $ 11.900.000
-        p.mb-0 Es importante resaltar que en el registro anterior se aplica nuevamente el principio de partida doble, donde se registra el ingreso por el valor monetario de la transacción ($ 10.000.000), posteriormente se calcula el valor del IVA correspondiente a la tarifa vigente del año 2020 del 19 %, el cual da como resultado $ 1.900.000. Finalmente, se determina el valor de clientes, donde se suma el valor del ingreso y el IVA, teniendo en cuenta que este último aumenta el valor del producto y, por ende, incrementa la cuenta por cobrar (clientes), donde se registra un valor total de $ 11.900.000.
+                    td.ajuste-border-tabla.ajuste___right $ 11.900.000
+                    td.ajuste___right $11.900.000
+        p.mb-0 Es importante resaltar que en el registro anterior se aplica nuevamente el principio de partida doble, donde se registra el ingreso por el valor monetario de la transacción ($10.000.000), posteriormente se calcula el valor del IVA correspondiente a la tarifa vigente del año 2020 del 19 %, el cual da como resultado $1.900.000. Finalmente, se determina el valor de clientes, donde se suma el valor del ingreso y el IVA, teniendo en cuenta que este último aumenta el valor del producto y, por ende, incrementa la cuenta por cobrar (clientes), donde se registra un valor total de $11.900.000.
                 
     Separador
     <!-- BLOQUE 2 -->
@@ -326,28 +326,28 @@
             tbody
               tr  
                 td.ajuste___left.ajuste-border-tabla Activo
-                td.ajuste-border-tabla Débito
-                td Crédito
+                td.ajuste-border-tabla.ajuste___left Débito
+                td.ajuste___left Crédito
               tr.ajuste-color-tabla-1
                 td.ajuste___left.ajuste-border-tabla Pasivo
-                td.ajuste-border-tabla Crédito
-                td Débito
+                td.ajuste-border-tabla.ajuste___left Crédito
+                td.ajuste___left Débito
               tr  
                 td.ajuste___left.ajuste-border-tabla Patrimonio
-                td.ajuste-border-tabla Crédito
-                td Débito
+                td.ajuste-border-tabla.ajuste___left Crédito
+                td.ajuste___left Débito
               tr.ajuste-color-tabla-1
                 td.ajuste___left.ajuste-border-tabla Ingresos
-                td.ajuste-border-tabla Crédito
-                td Débito
+                td.ajuste-border-tabla.ajuste___left Crédito
+                td.ajuste___left Débito
               tr
                 td.ajuste___left.ajuste-border-tabla Gastos
-                td.ajuste-border-tabla Débito
-                td Crédito
+                td.ajuste-border-tabla.ajuste___left Débito
+                td.ajuste___left Crédito
               tr.ajuste-color-tabla-1
                 td.ajuste___left.ajuste-border-tabla Costos
-                td.ajuste-border-tabla Débito
-                td Crédito
+                td.ajuste-border-tabla.ajuste___left Débito
+                td.ajuste___left Crédito
     
     p.mb-5 Para lograr uniformidad en el momento de registrar las transacciones realizadas por las empresas y, dar claridad y confiabilidad en dichos registros se crea el Plan Único de Cuentas -PUC-. Por este motivo, en Colombia existen 19 PUC, entre ellos se encuentran el decreto 2650 de 1993, que es utilizado para comerciantes.
 
@@ -482,7 +482,7 @@
           figure(data-aos="fade-left").d-none.d-xl-block
             img(src="@/assets/curso/tema2/img20.png" style="max-width: 400px").m-auto
       
-      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 1.</strong> Se adquiere mercancía por valor de $ 2.000.000 a crédito, se aplica IVA a la tarifa del 19 %.
+      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 1.</strong> Se adquiere mercancía por valor de $2.000.000 a crédito, se aplica IVA a la tarifa del 19 %.
 
       .row.justify-content-center.mb-4
         .col-lg-8
@@ -499,24 +499,24 @@
               tbody
                 tr  
                   td.ajuste___left.ajuste-border-tabla Inventarios
-                  td.ajuste___right.ajuste-border-tabla $ 2.000.000
-                  td 
+                  td.ajuste___right.ajuste-border-tabla $2.000.000
+                  td.ajuste___right -
                 tr.ajuste-color-tabla-1
                   td.ajuste___left.ajuste-border-tabla IVA descontable
-                  td.ajuste___right.ajuste-border-tabla $ 380.000
-                  td 
+                  td.ajuste___right.ajuste-border-tabla $380.000
+                  td.ajuste___right -
                 tr  
                   td.ajuste___left.ajuste-border-tabla Proveedores Nacionales
-                  td.ajuste-border-tabla 
-                  td.ajuste___right $ 2.380.000
+                  td.ajuste-border-tabla.ajuste___right -
+                  td.ajuste___right $2.380.000
                 tr.ajuste-color-tabla-1
                   td.ajuste___left.ajuste-border-tabla Total
-                  td.ajuste___right.ajuste-border-tabla $ 2.380.000
-                  td.ajuste___right $ 2.380.000
+                  td.ajuste___right.ajuste-border-tabla $2.380.000
+                  td.ajuste___right $2.380.000
       
-      p.mb-5 En el ejemplo anterior, se tiene el valor del inventario por $ 2.000.000, se calcula el IVA del 19 % sobre este valor, dando el resultado de $ 380.000. Finalmente, se determina el total de la cuenta por pagar (proveedores nacionales); donde se suma el valor del inventario y el IVA. Esto, teniendo en cuenta que el IVA incrementa el valor del producto que, como su nombre lo indica, es un valor agregado. Así mismo, se observa que se cumple con el principio de partida doble, reflejando igualdad entre el <strong>debe</strong> y <strong>haber</strong> por valor de $ 2.380.000.
+      p.mb-5 En el ejemplo anterior, se tiene el valor del inventario por $2.000.000, se calcula el IVA del 19 % sobre este valor, dando el resultado de $380.000. Finalmente, se determina el total de la cuenta por pagar (proveedores nacionales); donde se suma el valor del inventario y el IVA. Esto, teniendo en cuenta que el IVA incrementa el valor del producto que, como su nombre lo indica, es un valor agregado. Así mismo, se observa que se cumple con el principio de partida doble, reflejando igualdad entre el <strong>debe</strong> y <strong>haber</strong> por valor de $2.380.000.
 
-      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 2.</strong> El 15 de septiembre de 2020, se adquiere un computador por valor de $ 3.800.000, para uso en la empresa, se cancela a 30 días. 
+      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 2.</strong> El 15 de septiembre de 2020, se adquiere un computador por valor de $3.800.000, para uso en la empresa, se cancela a 30 días. 
 
       .row.justify-content-center.mb-4
         .col-lg-8
@@ -533,16 +533,16 @@
               tbody
                 tr  
                   td.ajuste___left.ajuste-border-tabla Equipo computación
-                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
-                  td 
+                  td.ajuste___right.ajuste-border-tabla $3.800.000
+                  td.ajuste___right -
                 tr.ajuste-color-tabla-1
                   td.ajuste___left.ajuste-border-tabla Acreedores varios
-                  td.ajuste-border-tabla 
-                  td.ajuste___right $ 3.800.000
+                  td.ajuste-border-tabla.ajuste___right -
+                  td.ajuste___right $3.800.000
                 tr  
                   td.ajuste___left.ajuste-border-tabla Total
-                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
-                  td.ajuste___right $ 3.800.000
+                  td.ajuste___right.ajuste-border-tabla $3.800.000
+                  td.ajuste___right $3.800.000
 
       p.mb-5 Se registra el activo- equipo de computación, presentando aumento (débito) y acreedores varios en el pasivo (crédito) incrementando el valor de la deuda.
 
@@ -563,20 +563,20 @@
               tbody
                 tr  
                   td.ajuste___left.ajuste-border-tabla Acreedores varios
-                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
-                  td 
+                  td.ajuste___right.ajuste-border-tabla $3.800.000
+                  td.ajuste___right -
                 tr.ajuste-color-tabla-1
                   td.ajuste___left.ajuste-border-tabla Bancos
-                  td.ajuste-border-tabla 
-                  td.ajuste___right $ 3.800.000
+                  td.ajuste-border-tabla.ajuste___right -
+                  td.ajuste___right $3.800.000
                 tr  
                   td.ajuste___left.ajuste-border-tabla Total
-                  td.ajuste___right.ajuste-border-tabla $ 3.800.000
-                  td.ajuste___right $ 3.800.000
+                  td.ajuste___right.ajuste-border-tabla $3.800.000
+                  td.ajuste___right $3.800.000
                   
       p.mb-5 Teniendo en cuenta que se cancela la deuda, disminuye el pasivo- acreedores varios (débito) y a su vez la cuenta de banco (crédito), considerando que se presenta una salida de dinero. Cabe resaltar, que esta clase de cuentas tienen naturaleza diferente.
 
-      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 4.</strong> Se constituye la empresa Sandles SAS, un socio aporta $ 10.000.000 en efectivo y el segundo socio aporta maquinaria y equipo por $ 10.000.000. 
+      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 4.</strong> Se constituye la empresa Sandles SAS, un socio aporta $10.000.000 en efectivo y el segundo socio aporta maquinaria y equipo por $10.000.000. 
 
       .row.justify-content-center.mb-4
         .col-lg-8
@@ -593,24 +593,24 @@
               tbody
                 tr  
                   td.ajuste___left.ajuste-border-tabla Efectivo
-                  td.ajuste___right.ajuste-border-tabla $ 10.000.000
-                  td 
+                  td.ajuste___right.ajuste-border-tabla $10.000.000
+                  td.ajuste___right -
                 tr.ajuste-color-tabla-1
                   td.ajuste___left.ajuste-border-tabla Maquinaria y equipo
-                  td.ajuste___right.ajuste-border-tabla $ 10.000.000
-                  td 
+                  td.ajuste___right.ajuste-border-tabla $10.000.000
+                  td.ajuste___right -
                 tr  
                   td.ajuste___left.ajuste-border-tabla Aportes sociales
-                  td.ajuste-border-tabla 
-                  td.ajuste___right $ 20.000.000
+                  td.ajuste-border-tabla.ajuste___right -
+                  td.ajuste___right $20.000.000
                 tr.ajuste-color-tabla-1
                   td.ajuste___left.ajuste-border-tabla Total
-                  td.ajuste___right.ajuste-border-tabla $ 20.000.000
-                  td.ajuste___right $ 20.000.000
+                  td.ajuste___right.ajuste-border-tabla $20.000.000
+                  td.ajuste___right $20.000.000
                   
       p.mb-5 Se registra el aumento (débito) del activo en las cuentas de efectivo y maquinaria de equipo, a su vez, el aumento (crédito) en la cuenta de patrimonio-aportes sociales. 
 
-      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 5.</strong> La empresa cancela arriendo del mes de octubre por valor de $ 800.000 en efectivo.
+      p.mb-4.ajuste-espacios-movil <strong>Ejemplo 5.</strong> La empresa cancela arriendo del mes de octubre por valor de $800.000 en efectivo.
 
       .row.justify-content-center.mb-4
         .col-lg-8
@@ -627,16 +627,16 @@
               tbody
                 tr  
                   td.ajuste___left.ajuste-border-tabla Gastos de arrendamiento
-                  td.ajuste___right.ajuste-border-tabla $ 800.000
-                  td 
+                  td.ajuste___right.ajuste-border-tabla $800.000
+                  td.ajuste___right -
                 tr.ajuste-color-tabla-1
                   td.ajuste___left.ajuste-border-tabla Efectivo
-                  td.ajuste-border-tabla 
-                  td.ajuste___right $ 800.000
+                  td.ajuste-border-tabla.ajuste___right -
+                  td.ajuste___right $800.000
                 tr  
                   td.ajuste___left.ajuste-border-tabla Total
-                  td.ajuste___right.ajuste-border-tabla $ 800.000
-                  td.ajuste___right $ 800.000
+                  td.ajuste___right.ajuste-border-tabla $800.000
+                  td.ajuste___right $800.000
                   
     p.mb-4.ajuste-espacios-movil Recuerde que, para realizar el registro de las operaciones en los comprobantes y libros contables, es indispensable tener en cuenta:
 
@@ -686,7 +686,7 @@
         figure(data-aos="fade-left").d-none.d-xl-block
             img(src="@/assets/curso/tema2/img23.svg" style="max-width: 400px").m-auto
 
-    p.mb-5.ajuste-espacios-movil Lo anterior indica, que la sumatoria de pasivo y patrimonio debe ser igual al activo. Así, si el total activo se encuentra representado por $ 15.000.000, la suma del pasivo y patrimonio debe dar el mismo valor. De esta manera, se cumple con la ecuación contable (Tapia y Jiménez, 2018; Cuaspa, 2013; Vilches; 2019; Angulo, 2018).
+    p.mb-5.ajuste-espacios-movil Lo anterior indica, que la sumatoria de pasivo y patrimonio debe ser igual al activo. Así, si el total activo se encuentra representado por $15.000.000, la suma del pasivo y patrimonio debe dar el mismo valor. De esta manera, se cumple con la ecuación contable (Tapia y Jiménez, 2018; Cuaspa, 2013; Vilches; 2019; Angulo, 2018).
 
     .row.justify-content-center.mb-5.ajuste-espacios-movil
       .col-lg-auto
@@ -713,28 +713,28 @@
             tbody
               tr  
                 td.ajuste___left.ajuste-border-tabla Efectivo
-                td.ajuste___right $ 2.500.000 
+                td.ajuste___right $2.500.000 
               tr.ajuste-color-tabla-1
                 td.ajuste___left.ajuste-border-tabla Deudores
-                td.ajuste___right $ 2.000.000 
+                td.ajuste___right $2.000.000 
               tr  
                 td.ajuste___left.ajuste-border-tabla Inventarios
-                td.ajuste___right $ 2.800.000 
+                td.ajuste___right $2.800.000 
               tr.ajuste-color-tabla-1
                 td.ajuste___left.ajuste-border-tabla Propiedad, planta y equipo
-                td.ajuste___right $ 6.500.000 
+                td.ajuste___right $6.500.000 
               tr  
                 td.ajuste___left.ajuste-border-tabla Proveedores nacionales
-                td.ajuste___right $ 8.800.000 
+                td.ajuste___right $8.800.000 
               tr.ajuste-color-tabla-1
                 td.ajuste___left.ajuste-border-tabla Capital
-                td.ajuste___right $ 5.000.000 
+                td.ajuste___right $5.000.000 
               tr  
                 td.ajuste___left.ajuste-border-tabla Ingresos actividades ordinarias
-                td.ajuste___right $ 10.000.000 
+                td.ajuste___right $10.000.000 
               tr.ajuste-color-tabla-1
                 td.ajuste___left.ajuste-border-tabla Gastos
-                td.ajuste___right $ 4.000.000 
+                td.ajuste___right $4.000.000 
                 
     p.mb-4.ajuste-espacios-movil La ecuación que debe verificarse es la siguiente:
 
@@ -749,7 +749,7 @@
         figure(data-aos="fade-up")
           img(src="@/assets/curso/tema2/img25.svg" alt="Tabla sobre la ecuación contable con dos columnas principales: Activo y Pasivo. La columna de Activo incluye efectivo, deudores, inventarios y propiedad, planta y equipo, sumando $19.500.000. La columna de Pasivo contiene obligaciones financieras por $15.000.000, y en la sección de Patrimonio se registra capital por $4.500.000, totalizando $19.500.000 entre pasivo y patrimonio." style="max-width: 1230px").m-auto
 
-    p.mb-4.ajuste-espacios-movil Para determinar la ecuación contable, se clasifican los elementos de los estados financieros correspondientes a las cuentas de activo, pasivo y patrimonio. Se omiten las cuentas relacionadas de ingresos y gastos en la información suministrada, teniendo en cuenta que estas se incorporan en el estado de resultados integral. Así mismo, se observa que el valor de activos correspondiente a $ 13.800.000, es igual a la sumatoria de pasivo y patrimonio, cumpliendo con lo estipulado en la ecuación.
+    p.mb-4.ajuste-espacios-movil Para determinar la ecuación contable, se clasifican los elementos de los estados financieros correspondientes a las cuentas de activo, pasivo y patrimonio. Se omiten las cuentas relacionadas de ingresos y gastos en la información suministrada, teniendo en cuenta que estas se incorporan en el estado de resultados integral. Así mismo, se observa que el valor de activos correspondiente a $13.800.000, es igual a la sumatoria de pasivo y patrimonio, cumpliendo con lo estipulado en la ecuación.
 
     p.mb-4 <strong>Ejemplo 2.</strong> La empresa Carvajal SAS, suministra la siguiente información del periodo contable 2020. Determine el patrimonio de la empresa:
 
@@ -766,23 +766,23 @@
                 th Valor
             tbody
               tr  
-                td.ajuste-border-tabla Efectivo
-                td $ 5.000.000 
+                td.ajuste-border-tabla.ajuste___left Efectivo
+                td.ajuste___right $5.000.000 
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Deudores
-                td $ 3.500.000 
+                td.ajuste-border-tabla.ajuste___left Deudores
+                td.ajuste___right $3.500.000 
               tr  
-                td.ajuste-border-tabla Inventarios
-                td $ 2.000.000 
+                td.ajuste-border-tabla.ajuste___left Inventarios
+                td.ajuste___right $2.000.000 
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Propiedad, planta y equipo
-                td $ 9.000.000 
+                td.ajuste-border-tabla.ajuste___left Propiedad, planta y equipo
+                td.ajuste___right $9.000.000 
               tr  
-                td.ajuste-border-tabla Obligaciones financieras
-                td $ 15.000.000 
+                td.ajuste-border-tabla.ajuste___left Obligaciones financieras
+                td.ajuste___right $15.000.000 
               tr.ajuste-color-tabla-1
-                td.ajuste-border-tabla Capital
-                td ?
+                td.ajuste-border-tabla.ajuste___left Capital
+                td.ajuste___right ?
 
     p.mb-4.ajuste-espacios-movil La ecuación aplicable en este caso es la siguiente:
 
@@ -807,10 +807,10 @@
       .col-lg-4
         h5.caja-text-tema2-bloque4-2.ajuste___width_2(data-aos="fade-left") Patrimonio = $4.500.000
 
-    .row.m-0.justify-content-center(data-aos="fade-up")
+    .row.m-0.justify-content-center(data-aos="fade-right")
       .caja-text-img-nota__4
         .col-lg-auto
-          figure.d-none.d-xl-block(data-aos="fade-right")
+          figure.d-none.d-xl-block
             img(src="@/assets/curso/tema2/img27.svg" style="width: 200px").m-auto
         .col-lg.ajuste__parrafo_4
           p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise las referencias bibliográficas propuestas de la biblioteca SENA, entre ellas se encuentra:
