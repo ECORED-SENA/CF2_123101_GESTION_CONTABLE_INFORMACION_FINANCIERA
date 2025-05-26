@@ -488,7 +488,7 @@
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 6. 
-            span Registro contable de compra con IVA descontable.
+            span Registro contable de compra con IVA descontable
           .tabla-a.mb-4(data-aos="fade-up")
             table
               thead
@@ -522,7 +522,7 @@
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 7. 
-            span Registro contable del pago a acreedores mediante bancos.
+            span Registro contable del pago a acreedores mediante bancos
           .tabla-a.mb-4(data-aos="fade-up")
             table
               thead
@@ -552,7 +552,7 @@
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 8. 
-            span Registro contable de acreedores y bancos.
+            span Registro contable de acreedores y bancos
           .tabla-a.mb-4(data-aos="fade-up")
             table
               thead
@@ -582,7 +582,7 @@
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 9.  
-            span Registro contable de aportes sociales en efectivo y maquinaria.
+            span Registro contable de aportes sociales en efectivo y maquinaria
           .tabla-a.mb-4(data-aos="fade-up")
             table
               thead
@@ -616,7 +616,7 @@
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 10.   
-            span Registro contable del pago de gastos de arrendamiento en efectivo.
+            span Registro contable del pago de gastos de arrendamiento en efectivo
           .tabla-a.mb-4(data-aos="fade-up")
             table
               thead
@@ -703,7 +703,7 @@
       .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 11.   
-          span Saldos de cuentas contables al cierre del periodo.
+          span Saldos de cuentas contables al cierre del periodo
         .tabla-a.mb-4(data-aos="fade-up").ajuste___tabla
           table
             thead
@@ -757,7 +757,7 @@
       .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 12.   
-          span Cálculo del capital a partir de activos y pasivos.
+          span Cálculo del capital a partir de activos y pasivos
         .tabla-a.mb-4(data-aos="fade-up").ajuste___tabla
           table
             thead
@@ -790,7 +790,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3.ajuste-espacios-movil
       h5 Figura 2.    
-      span Balance general simplificado: Activos, pasivos y patrimonio.
+      span Balance general simplificado: Activos, pasivos y patrimonio
     
     .row.mb-5
       .col-lg-auto

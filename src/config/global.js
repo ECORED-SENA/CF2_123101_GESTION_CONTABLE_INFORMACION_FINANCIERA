@@ -150,7 +150,7 @@ export default {
     {
       tema: 'Compra de propiedad, planta y equipo en moneda local y extranjera',
       referencia:
-        'Congreso de Colombia. (1995). Ley 222 de 1995: Por la cual se modifica el Libro II del Código de Comercio... Diario Oficial No. 42.156.',
+        'Congreso de Colombia. (1995). Ley 222 de 1995: Por la cual se modifica el Libro II del Código de Comercio. Diario Oficial No. 42.156.',
       tipo: 'Página web',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6739',
@@ -166,7 +166,7 @@ export default {
     {
       tema: 'Política contable de propiedades de inversión',
       referencia:
-        'Congreso de Colombia. (1999). Ley 527 de 1999: Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos... Diario Oficial No. 43.673.',
+        'Congreso de Colombia. (1999). Ley 527 de 1999: Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos. Diario Oficial No. 43.673.',
       tipo: 'Página web',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4276',
@@ -250,7 +250,7 @@ export default {
       referencia:
         'Decreto 2420 <em>de diciembre 14 de 2015 (2020, noviembre 05)</em>.',
       link:
-        'https://www.nicniif.org/home/novedades/colombia-expide-decreto-unico-regalmentario-dur-de-las-normas-de-contabilidad-de-informacion-financiera-y-de-aseguramiento-de-la-informacion-financiera.html',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745',
     },
     {
       referencia:

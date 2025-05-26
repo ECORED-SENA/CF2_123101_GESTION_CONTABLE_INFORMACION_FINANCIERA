@@ -170,7 +170,7 @@
         .bloque-texto-c.p-4.mb-2(data-aos="fade-left")
           i.fas.fa-quote-right
           h5.mb-4 Proporcionar información financiera sobre la entidad que informa que sea útil a los inversores, prestamistas y otros acreedores existentes y potenciales para tomar decisiones sobre el suministro de recursos a la entidad. Esas decisiones conllevan, comprar, vender o mantener patrimonio e instrumentos de deuda, y proporcionar o liquidar préstamos y otras formas de crédito.
-          span - Consejo de Normas Internacionales de Contabilidad (2018) (p. 10).
+          span (Consejo de Normas Internacionales de Contabilidad 2018 p. 10).
         p.ajuste-espacios-movil-1 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
         a.anexo.ajuste__anexo.m-2(:href="('http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la')" target="_blank")
           .anexo__icono
@@ -465,7 +465,7 @@
         .bloque-texto-c.p-4.mb-2(data-aos="fade-left")
           i.fas.fa-quote-right
           h5.mb-4 La comunicación efectiva de la información de los estados financieros requiere: (a) centrarse en los objetivos y principios de presentación e información a revelar en lugar de centrarse en reglas; (b) clasificar la información de forma que agrupe las partidas similares juntas y las diferentes de forma separada; y (c) agregar información de forma que no se ensombrezca con detalles innecesarios o agregación excesiva.
-          span - (Consejo de Normas Internacionales de Contabilidad, 2018).
+          span (Consejo de Normas Internacionales de Contabilidad, 2018).
     
     Separador
     <!-- BLOQUE 4 -->
