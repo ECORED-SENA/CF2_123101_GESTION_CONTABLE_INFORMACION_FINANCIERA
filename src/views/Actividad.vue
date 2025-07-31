@@ -9,7 +9,6 @@
   </template>
 
 <script>
-import { flip } from '@popperjs/core'
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
@@ -21,7 +20,7 @@ export default {
       tema: 'Fundamentos y registros contables',
       titulo: 'Cuestionario',
       introduccion:
-        '<strong>Objetivo:</strong> Identificar los conceptos básicos, características y procedimientos relacionados con la información contable, registros contables, clasificación de cuentas, partida doble y ecuación contable.',
+        '<strong>Objetivo:</strong> identificar los conceptos básicos, características y procedimientos relacionados con la información contable, registros contables, clasificación de cuentas, partida doble y ecuación contable.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: '¡VUELVA A INTENTARLO!',
@@ -60,7 +59,7 @@ export default {
           id: 2,
           texto:
             '¿Qué característica fundamental asegura que la información contable sea completa, objetiva y sin errores?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -91,7 +90,7 @@ export default {
           id: 3,
           texto:
             '¿Qué método contable establece la igualdad entre débitos y créditos en una transacción?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -122,7 +121,7 @@ export default {
           id: 4,
           texto:
             '¿Qué elemento contable se registra en el lado izquierdo de una cuenta?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -152,7 +151,7 @@ export default {
         {
           id: 5,
           texto: '¿Qué indica la ecuación contable?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -214,7 +213,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál es un ejemplo de elemento clasificado dentro de los activos?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -244,7 +243,7 @@ export default {
         {
           id: 8,
           texto: '¿Qué representa el saldo de una cuenta contable?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -274,7 +273,7 @@ export default {
         {
           id: 9,
           texto: '¿Qué describe mejor un asiento compuesto?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -305,7 +304,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es la diferencia principal entre cuentas reales y nominales?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -359,7 +358,7 @@ export default {
         {
           id: 12,
           texto: 'La naturaleza de las cuentas de ingresos es débito.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -380,7 +379,7 @@ export default {
           id: 13,
           texto:
             'Los costos siempre aumentan los beneficios económicos en una empresa.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -401,7 +400,7 @@ export default {
           id: 14,
           texto:
             'La partida doble implica que cada operación afecta al menos dos cuentas contables.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -422,7 +421,7 @@ export default {
           id: 15,
           texto:
             'La cuenta "Caja" tiene generalmente un saldo de naturaleza débito.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
